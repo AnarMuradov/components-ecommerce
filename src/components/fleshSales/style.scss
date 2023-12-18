@@ -1,0 +1,29 @@
+.flashSales{
+    width: 100%;
+    min-height: 700px;
+    &__Container{
+        width: 80%;
+        min-height: 700px;
+        margin: auto;
+
+    }
+    &__Head{
+            display: flex;
+            flex-direction: column;
+
+            &__Title{
+
+            }
+            &__Content{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                &__Name{
+                    display: flex;
+                width: 100%;
+                align-items: center;
+                
+                }
+            }
+    }
+}
